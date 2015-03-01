@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 
-public class JumpGameII
+public class JumpGameII  //bfs type implement
 {
     public static int jump(int[] A) {
         if (A.length == 0 || A.length == 1) return 0;
@@ -14,7 +14,7 @@ public class JumpGameII
         while (!queue.isEmpty())
         {
             int temp = queue.poll();
-            for (int i = A[temp]; i >= 0; i--)
+            for (int i = A[temp]; i >= 0; i--)    //backward to make sure reach the endpoint as soon as possible
             {
                 if (temp + i < A.length && !marked[temp+i])
                 {
