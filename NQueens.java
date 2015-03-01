@@ -63,6 +63,6 @@ public class NQueens
     }
     public static void main(String[] args)
 	{
-		System.out.println(solveNQueens(4).size());
+		System.out.println(solveNQueens(10).size());
 	}
 }
