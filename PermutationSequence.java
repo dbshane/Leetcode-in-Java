@@ -5,7 +5,6 @@ public class PermutationSequence
 {
     public String getPermutation(int n, int k) {
         int fact = 1;
-        int max = 0;
         ArrayList<Integer> num = new ArrayList<Integer>();
         for (int i = 1; i < n+1; i++)
         	num.add(i);
@@ -28,7 +27,5 @@ public class PermutationSequence
     	PermutationSequence a = new PermutationSequence();
     	
 		System.out.println(a.getPermutation(4,1));
-		int i = 3;
-		StringBuilder c = new StringBuilder();
 	}
 }
