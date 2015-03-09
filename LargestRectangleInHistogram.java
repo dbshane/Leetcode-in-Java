@@ -19,7 +19,8 @@ public class LargestRectangleInHistogram
         	{
         		int t = stack.pop();
         		//if stack is empty,
-        		//it means that the index just popped out has the smallest height in the array
+        		//it means that the index just popped out has the smallest height
+        		//in the indices that have been seen except i
         		area = Math.max(area, h[t]*((stack.isEmpty())? i:i-stack.peek()-1));
         	}
         }
