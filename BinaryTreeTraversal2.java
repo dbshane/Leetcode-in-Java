@@ -1,15 +1,15 @@
 import java.util.*;
 public class BinaryTreeTraversal2
 {
-	public List<LinkedList<Integer>> levelOrderBottom(TreeNode root)
+	public ArrayList<ArrayList<Integer>> levelOrderBottom(TreeNode root)
 	{
 		LinkedList<TreeNode> nodeQueue = new LinkedList<TreeNode>();
-		Stack<LinkedList<Integer>> reverse = new Stack<LinkedList<Integer>>();
-		LinkedList<LinkedList<Integer>> result = new LinkedList<LinkedList<Integer>>();
+		Stack<ArrayList<Integer>> reverse = new Stack<ArrayList<Integer>>();
+		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 		nodeQueue.add(root);
 		while (!nodeQueue.isEmpty())
 		{
-			LinkedList<Integer> e = new LinkedList<Integer>();
+			ArrayList<Integer> e = new ArrayList<Integer>();
 			LinkedList<TreeNode> children = new LinkedList<TreeNode>();
 			while (!nodeQueue.isEmpty())
 			{
