@@ -24,3 +24,20 @@ public class InterleavingString
 		System.out.println(isInterleave("","dbbca","dbcca"));
 	}
 }
+
+/*
+ * 		example: s1 = "ABC" s2 = "BCA" s3 = "ABBCAC"
+ * 					 A B C
+ * 				   T T T F
+ * 				B  F T T T
+ * 				C  F F T F
+ * 				A  F F T T
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
