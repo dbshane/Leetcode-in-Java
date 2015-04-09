@@ -70,7 +70,6 @@ public class AddTwoNumbers
     	ListNode a1 = new ListNode(1,a2);
     	ListNode a11 = new ListNode(9);
     	System.out.println("aaa" + f.addTwoNumbers(a1, a11).val);
-    	
 	}
 }
 
