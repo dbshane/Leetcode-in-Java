@@ -37,13 +37,6 @@ public class ReorderList
     }
     public static void main(String[] args)
 	{
-    	ListNode a10 = new ListNode(8);
-
-   // 	ListNode a9 = new ListNode(7, a10);
-    //	ListNode a8 = new ListNode(6, a9);
-    //	ListNode a7 = new ListNode(5, a8);
-    //	ListNode a6 = new ListNode(4, a7);
-    	
     	ListNode a5 = new ListNode(3);
     	ListNode a4 = new ListNode(2, a5);
     	
